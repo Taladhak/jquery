@@ -1,0 +1,70 @@
+/* movie.css */
+
+/* Styles for the heading */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styles for the form */
+#movie-form {
+    text-align: center;
+}
+
+#movie-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#movie-form input {
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#movie-form button {
+    margin-top: 10px;
+    padding: 7px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for the table */
+.table {
+    margin-top: 20px;
+}
+
+#table-content {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table-content th, #table-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#table-content th {
+    background-color: #f2f2f2;
+}
+
+#table-content tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#table-content tr:hover {
+    background-color: #ddd;
+}
+
+/* Styles for the delete button */
+#table-content .delete-btn {
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
